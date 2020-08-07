@@ -10,19 +10,19 @@
 
 <title>PHP</title>
 </head>
-<body>
-<header>
-<h1 class="font-weight-normal">PHP</h1>    
-</header>
+    <body>
+    <header>
+    <h1 class="font-weight-normal">PHP</h1>    
+    </header>
 
-<main>
-<h2>Practice</h2>
-<pre>
-<?php
-$today = new DateTime();
-print($today->format('G時 i分 s秒')); 
-?>
-</pre>
-</main>
-</body>    
+    <main>
+    <h2>Practice</h2>
+    <pre>
+    <?php
+    $today = new DateTime();
+    print($today->format('G時 i分 s秒')); 
+    ?>
+    </pre>
+    </main>
+    </body>    
 </html>
